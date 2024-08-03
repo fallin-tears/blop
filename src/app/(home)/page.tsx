@@ -43,7 +43,7 @@ export default function Home() {
         <>
             <div className="flex flex-col h-screen w-screen items-center justify-center mt-20 sm:mt-0">
                 <img
-                    src="https://r2.kure.pl/pretend.png"
+                    src="https://r2.pretend.cc/pretend.png"
                     className="w-52 h-52 rounded-xl"
                 />
                 <h1 className="text-6xl font-bold text-white">Pretend</h1>
