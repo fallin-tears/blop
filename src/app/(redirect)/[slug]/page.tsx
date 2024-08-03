@@ -9,11 +9,11 @@ const Redirects = ({ params }: { params: { slug: string } }) => {
     const redirects: Redirect[] = [
         {
             path: "/discord",
-            url: "https://discord.gg/K5J7UQgJTN",
+            url: "https://discord.gg/pretend",
         },
         {
             path: "/support",
-            url: "https://discord.gg/K5J7UQgJTN",
+            url: "https://discord.gg/pretend",
         },
         {
             path: "/cmds",

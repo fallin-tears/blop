@@ -23,7 +23,7 @@ export default function Terms() {
                 required to notify you of changes to any documents, so please
                 make sure to check this website frequently. If you have any
                 concerns or requests, feel free to reach out to us via{" "}
-                <a href="https://discord.gg/K5J7UQgJTN" className="text-blue-400">
+                <a href="https://discord.gg/pretend" className="text-blue-400">
                   our support server
                 </a>{" "}
                 and open a ticket.
@@ -62,11 +62,11 @@ export default function Terms() {
                       <ol className="pl-3">
                         <li className="text-white list-disc list-inside">
                           <a
-                            href="https://discord.gg/K5J7UQgJTN"
+                            href="https://discord.gg/pretend"
                             className="text-blue-400"
                             target="_blank"
                           >
-                            https://discord.gg/K5J7UQgJTN
+                            https://discord.gg/pretend
                           </a>
                         </li>
                       </ol>
@@ -203,9 +203,9 @@ export default function Terms() {
                           contact us at{" "}
                           <a
                             className="text-blue-400"
-                            href="https://discord.gg/K5J7UQgJTN"
+                            href="https://discord.gg/pretend"
                           >
-                            https://discord.gg/K5J7UQgJTN
+                            https://discord.gg/pretend
                           </a>
                         </li>
                       </ol>
