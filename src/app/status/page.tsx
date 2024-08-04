@@ -25,10 +25,7 @@ export default function Status() {
         let config = {
           method: "get",
           maxBodyLength: Infinity,
-          url: "https://api.pretend.bot",
-          headers: {
-            "api-key": process.env.NEXT_PUBLIC_API_KEY,
-          },
+          url: "https://api.pretend.cc/shards/get",
         };
 
         const response = await axios.request(config);
