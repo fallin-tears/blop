@@ -25,7 +25,7 @@ export default function Status() {
         let config = {
           method: "get",
           maxBodyLength: Infinity,
-          url: "https://kure.pl/shards/get",
+          url: "https://api.pretend.bot",
           headers: {
             "api-key": process.env.NEXT_PUBLIC_API_KEY,
           },
