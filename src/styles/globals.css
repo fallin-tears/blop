@@ -16,21 +16,6 @@
   }
 }
 
-#gradient-canvas {
-  position: fixed;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  --gradient-color-1: #141314;
-  --gradient-color-2: #141314;
-  --gradient-color-3: #141314;
-  --gradient-color-4: #141314;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -65,28 +50,6 @@ body {
   .touch-scroll {
     -webkit-overflow-scrolling: touch;
   }
-}
-
-.tooltip {
-  visibility: hidden;
-  background-color: #262226;
-  color: #fff;
-  text-align: center;
-  border-radius: 12px;
-  padding: 5px 10px;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  white-space: nowrap; 
-}
-
-button:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
@@ -125,19 +88,18 @@ input[type="search"]::-webkit-search-cancel-button {
   font-size: 12px;
   background-color: #141314;
   border-radius: 15px !important;
-  height: fit-content;
-  overflow: hidden;
+  overflow-y: scroll;
+  height: 550px;
 }
 .modal > .header {
   width: 100%;
   font-size: 18px;
   text-align: center;
+  padding: 5px;
 }
 .modal > .content {
   width: 100%;
   padding: 10px 5px;
-  max-height: 550px;
-  overflow-y: scroll;
 }
 .modal > .actions {
   width: 100%;
@@ -147,21 +109,8 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .popup-content {
+  background: #141314 !important;
   border: 0px !important;
   border-radius: 15px !important;
-  padding: 0 !important;
-  background-color: transparent !important;
-  width: fit-content !important;
-}
-
-#popup-1 {
-  width: fit-content !important;
-  display: flex;
-  background-color: rgba(20, 19, 20 , 0.1) !important;
-  overflow: hidden !important;
-  height: fit-content !important;
-}
-
-.searchbox {
-  filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 25px 25px);
+  width: 35% !important;
 }
