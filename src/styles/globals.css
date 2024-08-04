@@ -25,10 +25,10 @@
   left: 0;
   right: 0;
   top: 0;
-  --gradient-color-1: #5543ff;
-  --gradient-color-2: #5543ff;
+  --gradient-color-1: #add8e6;
+  --gradient-color-2: #add8e6;
   --gradient-color-3: #ffffff;
-  --gradient-color-4: #5543ff;
+  --gradient-color-4: #add8e6;
 }
 
 @layer utilities {
