@@ -1,11 +1,172 @@
 {
-    "Roleplay": [
+    "Fun": [
         {
-            "name": "joint hit",
-            "description": "hit the server joint",
+            "name": "8ball",
+            "description": "answers to your question",
+            "help": "<question>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "fyp",
+            "description": "get a random tiktok video",
             "help": "None",
             "brief": "None",
-            "category": "Roleplay"
+            "category": "Fun"
+        },
+        {
+            "name": "chatgpt",
+            "description": "ask chatgpt a question",
+            "help": "<question>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "screenshot",
+            "description": "get a preview of a website",
+            "help": "<url>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "capybara",
+            "description": "send a random capybara image",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "uselessfact",
+            "description": "return an useless fact",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "choose",
+            "description": "choose between options",
+            "help": "<choices separated by a comma>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "ship",
+            "description": "ship rate an user",
+            "help": "<member>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "poll",
+            "description": "start a quick poll",
+            "help": "None",
+            "brief": "manage messages",
+            "category": "Fun"
+        },
+        {
+            "name": "pp",
+            "description": "returns users dick size",
+            "help": "<member>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "tictactoe",
+            "description": "play tictactoe with your friends",
+            "help": "<member>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "advice",
+            "description": "sends a random advice",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "coinflip",
+            "description": "flip a coin",
+            "help": "<heads / tails>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "urban",
+            "description": "sends a definition of a word",
+            "help": "<word>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "rockpaperscisssors",
+            "description": "play rock paper scissors with the bot",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "bitches",
+            "description": "check how many bitches an user has",
+            "help": "<member>",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "dog",
+            "description": "send a random dog image",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "blacktea",
+            "description": "play blacktea with your friends",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "cat",
+            "description": "send a random cat image",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "bird",
+            "description": "send a random bird image",
+            "help": "None",
+            "brief": "None",
+            "category": "Fun"
+        },
+        {
+            "name": "giveaway list",
+            "description": "returns a list of active giveaways in the server",
+            "help": "None",
+            "brief": "None",
+            "category": "Giveaway"
+        },
+        {
+            "name": "giveaway end",
+            "description": "end a giveaway",
+            "help": "<message id> <channel>",
+            "brief": "manage guild",
+            "category": "Giveaway"
+        },
+        {
+            "name": "giveaway reroll",
+            "description": "reroll a giveaway",
+            "help": "<message id> <channel>",
+            "brief": "manage guild",
+            "category": "Giveaway"
+        },
+        {
+            "name": "giveaway create",
+            "description": "create a giveaway in this server",
+            "help": "<channel>",
+            "brief": "manage guild",
+            "category": "Giveaway"
         }
     ]
 }
