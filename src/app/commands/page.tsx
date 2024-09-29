@@ -78,17 +78,6 @@ export default function Commands() {
                         onMouseMove={handleMouseMove}
                     >
                         <SelectorItem
-                            name="Donator"
-                            amount={commands
-                                .filter(
-                                    (command) => command.category === "Donator"
-                                )
-                                .length.toString()}
-                            icon={<FaMoneyBillWaveAlt className="w-6 h-6" />}
-                            active={activeCategory}
-                            onClick={handleCategoryClick}
-                        />
-                        <SelectorItem
                             name="AntiNuke"
                             amount={commands
                                 .filter(
@@ -96,17 +85,6 @@ export default function Commands() {
                                 )
                                 .length.toString()}
                             icon={<SiFsecure className="w-6 h-6" />}
-                            active={activeCategory}
-                            onClick={handleCategoryClick}
-                        />
-                        <SelectorItem
-                            name="AutoMod"
-                            amount={commands
-                                .filter(
-                                    (command) => command.category === "AutoMod"
-                                )
-                                .length.toString()}
-                            icon={<GiHammerNails className="w-6 h-6" />}
                             active={activeCategory}
                             onClick={handleCategoryClick}
                         />
@@ -142,17 +120,6 @@ export default function Commands() {
                             onClick={handleCategoryClick}
                         />
                         <SelectorItem
-                            name="Giveaway"
-                            amount={commands
-                                .filter(
-                                    (command) => command.category === "Giveaway"
-                                )
-                                .length.toString()}
-                            icon={<IoIosGift className="w-6 h-6" />}
-                            active={activeCategory}
-                            onClick={handleCategoryClick}
-                        />
-                        <SelectorItem
                             name="LastFM"
                             amount={commands
                                 .filter(
@@ -163,28 +130,7 @@ export default function Commands() {
                             active={activeCategory}
                             onClick={handleCategoryClick}
                         />
-                        <SelectorItem
-                            name="Leveling"
-                            amount={commands
-                                .filter(
-                                    (command) => command.category === "Leveling"
-                                )
-                                .length.toString()}
-                            icon={<TbMilitaryRank className="w-6 h-6" />}
-                            active={activeCategory}
-                            onClick={handleCategoryClick}
-                        />
-                        <SelectorItem
-                            name="Logging"
-                            amount={commands
-                                .filter(
-                                    (command) => command.category === "Logging"
-                                )
-                                .length.toString()}
-                            icon={<PiNotebookFill className="w-6 h-6" />}
-                            active={activeCategory}
-                            onClick={handleCategoryClick}
-                        />
+                        
                         <SelectorItem
                             name="Moderation"
                             amount={commands
@@ -196,17 +142,7 @@ export default function Commands() {
                             icon={<FaShield className="w-6 h-6" />}
                             active={activeCategory}
                             onClick={handleCategoryClick}
-                        />
-                        <SelectorItem
-                            name="Music"
-                            amount={commands
-                                .filter(
-                                    (command) => command.category === "Music"
-                                )
-                                .length.toString()}
-                            icon={<FaMusic className="w-6 h-6" />}
-                            active={activeCategory}
-                            onClick={handleCategoryClick}
+                        
                         />
                         <SelectorItem
                             name="Roleplay"
@@ -229,17 +165,7 @@ export default function Commands() {
                             icon={<FaCog className="w-6 h-6" />}
                             active={activeCategory}
                             onClick={handleCategoryClick}
-                        />
-                        <SelectorItem
-                            name="Tickets"
-                            amount={commands
-                                .filter(
-                                    (command) => command.category === "Tickets"
-                                )
-                                .length.toString()}
-                            icon={<IoTicket className="w-6 h-6" />}
-                            active={activeCategory}
-                            onClick={handleCategoryClick}
+                        
                         />
                         <SelectorItem
                             name="Utility"
